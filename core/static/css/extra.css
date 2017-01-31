@@ -67,3 +67,28 @@
 #menu-botoes .box-botao.btn-9 {
   background-color: #a0c4e8;
 }
+
+#barra-busca .jumbotron {
+  background-color: #e9e9e9 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#barra-busca .jumbotron #s,
+#barra-busca .jumbotron #s-small {
+  color: #817f7f;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  border: none;
+  font-size: 15px;
+  margin: 25px auto;
+  padding: 0 10px;
+  background: #f8f8f8 url(../img/search.jpg) no-repeat right center;
+  display: inline-block;
+}
+#barra-busca .jumbotron #s-small {
+  display: none;
+}
