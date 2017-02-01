@@ -7,3 +7,6 @@ def index(request):
 
 def transparencia(request):
 	return render(request, 'transparencia.html')
+
+def receitas(request):
+	return render(request, 'receitas.html')
