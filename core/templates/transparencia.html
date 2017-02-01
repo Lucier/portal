@@ -22,7 +22,7 @@
             
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
                     <div class="box-botao btn-2">
-                        <a href="">
+                        <a href="{% url 'despesas' %}">
                             <div class="box-container-button">
                                 <div class="align-button">
                                     <img src="{% static "img/icon6.png" %}" alt="">
@@ -169,7 +169,7 @@
         <div class="row">
             <div class="col-xs-12 column">
                 <div class="jumbotron">
-                    <form id="search-form" action="http://transparencia.joaopessoa.pb.gov.br/">
+                    <form id="search-form">
                         <input type="text" name="s" id="s" placeholder="Digite o que você procura no nosso portal e tecle Enter">
                         <input type="text" name="s" id="s-small" placeholder="Pesquisa">
                     </form>

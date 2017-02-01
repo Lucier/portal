@@ -98,7 +98,7 @@
   font-size: 15px;
   margin: 25px auto;
   padding: 0 10px;
-  background: #f8f8f8 url(../img/search.jpg) no-repeat right center;
+  background: #f8f8f8 url(static/img/search.png) no-repeat right center;
   display: inline-block;
 }
 

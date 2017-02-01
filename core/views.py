@@ -10,3 +10,6 @@ def transparencia(request):
 
 def receitas(request):
 	return render(request, 'receitas.html')
+
+def despesas(request):
+	return render(request, 'despesas.html')
